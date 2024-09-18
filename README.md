@@ -22,7 +22,7 @@ poetry install
 
 Sera nescessário ter o Docker instalado. Caso não possua, visite a [Documentação Oficial Docker](https://docs.docker.com/get-docker/)
 
-### Criar um Django app (já criado)
+### Criar um Django Project (já criado)
 
 Criar um django app de nome `project` dentro da pasta `djangoapp` na raiz do projeto. O nome pode ser alterado mas deve-se ter atenção para mudar todos os arquivos mostrados a seguir.
 
@@ -30,6 +30,13 @@ Com o ambiente virtual ativado criamos um novo projeto com o seguinte comando:
 
 ```bash
 mkdir djangoapp ;cd djangoapp/ && django-admin startproject project .
+
+```
+
+### Criar um Django APP
+
+```bash
+django-admin startapp <app_name>
 ```
 
 ### Arquivos de Configuração
