@@ -6,5 +6,5 @@ app_name = 'app_exemplo'
 urlpatterns = [
     path('', views.index, name='index'),
     path('detalhes/<int:question_id>/', views.detail, name='detail'),
-    path('form/', views.form, name='form'),
+    path('form/', views.Form.as_view(), name='form'),
 ]
