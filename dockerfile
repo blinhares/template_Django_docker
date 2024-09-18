@@ -14,6 +14,7 @@ ENV PYTHONUNBUFFERED 1
 COPY djangoapp /djangoapp
 COPY scripts /scripts
 
+
 # Entra na pasta djangoapp no container
 WORKDIR /djangoapp
 

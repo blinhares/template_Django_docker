@@ -36,7 +36,25 @@ mkdir djangoapp ;cd djangoapp/ && django-admin startproject project .
 ### Criar um Django APP
 
 ```bash
-django-admin startapp djangoapp/<app_name>
+python manage.py startapp <app_name>
+```
+
+### Criar um Super Usuário Django Personalizado
+
+Por padrão existe 0 seguinte usuário:
+Usuário: root
+Senha: root
+
+Entre no Shell do Conteiner no modo interativo.
+
+```bash
+sudo docker exec -it djangoapp sh
+```
+
+Execute o comando a seguir:
+
+```bash
+python manage.py createsuperuser
 ```
 
 ### Arquivos de Configuração

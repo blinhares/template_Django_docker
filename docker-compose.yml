@@ -6,6 +6,7 @@ services:
     ports:
       - 8000:8000 #redireciona a porta 8000 do computador para a 8000 da imagem
     volumes: #mapei os volumens
+    #aqui o nome da pasta deve ser igual ao nome do conteiner e nome do projeto Django
       - ./djangoapp:/djangoapp #sincroniza a pasta com a pasta do conteiner
       - ./data/web/static:/data/web/static/
       - ./data/web/media:/data/web/media/

@@ -1,8 +1,15 @@
-Django>=5.0,<5.1
-pillow>=10.3,<10.4
-psycopg2-binary>=2.9,<3.0
-python-dotenv >=1.0.1,<1.1
-django-summernote >= 0.8.20,<0.8.21
-django-axes >= 6.4.0,<6.5
-
-
+asgiref==3.8.1
+bleach==6.1.0
+crispy-bootstrap5==2024.2
+Django==5.1.1
+django-axes==6.5.1
+django-crispy-forms==2.3
+django-summernote==0.8.20.0
+-e git+https://github.com/blinhares/template_Django_docker.git@7b929e78613ffa0665f33a89cb595135f8d8a36a#egg=djangoapp
+pillow==10.4.0
+psycopg2-binary==2.9.9
+python-dotenv==1.0.1
+six==1.16.0
+sqlparse==0.5.1
+typing_extensions==4.12.2
+webencodings==0.5.1
