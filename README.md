@@ -16,6 +16,8 @@ Para instalar as dependencias utilizaremos o comando abaixo. O comando utiliza c
 poetry install
 ```
 
+*Caso haja algum problema* e o ambiente virtual não seja criado localmente, verifique as configurações do poetry [conforme documentação](https://python-poetry.org/docs/configuration/).
+
 #### Docker
 
 Sera nescessário ter o Docker instalado. Caso não possua, visite a [Documentação Oficial Docker](https://docs.docker.com/get-docker/)
