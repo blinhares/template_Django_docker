@@ -36,7 +36,7 @@ mkdir djangoapp ;cd djangoapp/ && django-admin startproject project .
 ### Criar um Django APP
 
 ```bash
-django-admin startapp <app_name>
+django-admin startapp djangoapp/<app_name>
 ```
 
 ### Arquivos de Configuração
