@@ -5,7 +5,6 @@ Django==5.1.1
 django-axes==6.5.1
 django-crispy-forms==2.3
 django-summernote==0.8.20.0
--e git+https://github.com/blinhares/template_Django_docker.git@590ca5be558d87a375c87ac82641af006bc45403#egg=djangoapp
 pillow==10.4.0
 psycopg2-binary==2.9.9
 python-dotenv==1.0.1

@@ -52,6 +52,11 @@ body {
   text-align: left;
   background-color: #fff; }
 
+footer{
+  position:fixed;
+  bottom:0;
+} 
+
 [tabindex="-1"]:focus {
   outline: 0 !important; }
 
@@ -454,7 +459,7 @@ pre {
   @media (min-width: 1200px) {
     .container {
       max-width: 1140px; } }
-
+  
 .container-fluid {
   width: 100%;
   padding-right: 15px;
@@ -4548,7 +4553,7 @@ a.close.disabled {
   vertical-align: text-top !important; }
 
 .bg-primary {
-  background-color: #17a2b8 !important; }
+  background-color: var(--primary) !important; }
 
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
