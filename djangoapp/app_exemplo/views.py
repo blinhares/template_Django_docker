@@ -2,6 +2,7 @@ from django.shortcuts import render, get_object_or_404
 from . models import Question,Choice
 from django.http import HttpResponse, HttpResponseRedirect
 from django.urls import reverse
+from . forms import ExempleForm
 
 
 
@@ -20,4 +21,11 @@ def detail(request, question_id):
     question = get_object_or_404(Question, pk=question_id)
     return render(request, template_name, {'question': question})
 
-
+def form(request):
+    template_name = 'app_exemplo/form.html'
+    context = {
+        'form':ExempleForm(
+            data=request.POST
+        )
+    }
+    return render(request,template_name,context)
